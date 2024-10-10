@@ -70,16 +70,16 @@
 // });
 
 
-// import React from 'react';
-// import { NavigationContainer } from '@react-navigation/native';  // Import navigation
-// import Layout from './_layout'; // Assuming layout.tsx contains the Tab navigation or layout
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';  // Import navigation
+import Layout from './_layout'; // Assuming layout.tsx contains the Tab navigation or layout
 
-// const Index: React.FC = () => {
-//   return (
-//     <NavigationContainer>
-//       <Layout />
-//     </NavigationContainer>
-//   );
-// };
+const Index: React.FC = () => {
+  return (
+    <NavigationContainer>
+      <Layout />
+    </NavigationContainer>
+  );
+};
 
-// export default Index;
+export default Index;
